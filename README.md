@@ -13,7 +13,8 @@ pip install s3_client_server_side
 
 ```
 from s3_client_server_side import s3_client_server_side
-client = s3_client_server_side.S3Client()
+client = s3_client_server_side.S3Client(BUCKET_NAME, ACCESSKEY=False, SECRETKEY=False)
+
 ```
 
 ## Upload File
