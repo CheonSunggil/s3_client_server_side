@@ -35,7 +35,7 @@ get_byte_file(self, key: str) -> object
 
 ```
 
-## Find the latest data key
+## Find the latest data key from bucket
 
 ```
 get_latest_file_key(self, storage_path: str) -> str
