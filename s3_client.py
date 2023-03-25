@@ -1,6 +1,7 @@
 import io
 import pickle
 
+import boto3
 import h5py
 
 
