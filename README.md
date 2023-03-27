@@ -12,7 +12,7 @@ pip install s3_client_server_side
 ## S3Client
 
 ```
-from s3_client_server_side import s3_client_server_side
+from s3_client_server_side import s3_client
 client = s3_client_server_side.S3Client(BUCKET_NAME, ACCESSKEY=False, SECRETKEY=False)
 
 ```
